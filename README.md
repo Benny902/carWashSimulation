@@ -10,5 +10,7 @@ On initial run, the software receives the following arguments on the command lin
 
 run on linux:
 an example to run the file (the 4 values can be changed):
+
 gcc -pthread carWashSimulation.c -o carWashSimulation -lm
+
 ./carWashSimulation  3 1.5 3 20
